@@ -1,0 +1,27 @@
+
+
+.right {
+  float: right;
+}
+
+.emphasis {
+  color:rgb(44,154,183);
+}
+
+.banner {
+  height: 8rem;
+  color: white;
+  background-color:rgb(44,154,183);
+  font-family:Arial,serif
+}
+
+.subtitle {
+  font-size: 90%;
+  color: white;
+  font-style: italic;
+  font-family:Arial,serif
+}
+
+.standard {
+  font-family:Arial,serif
+}
