@@ -4,24 +4,69 @@
   float: right;
 }
 
+.upper {
+  position: relative;
+          bottom: 450px;
+}
+
 .emphasis {
   color:rgb(44,154,183);
 }
 
+
 .banner {
-  height: 8rem;
+  height: 14rem;
   color: white;
   background-color:rgb(44,154,183);
-  font-family:Arial,serif
+  font-family:Arial,serif;
+  padding-left: 10%;
+  padding-top: 1rem;
+  font-size: 200%;
+}
+
+.standard {
+  font-family:Arial,serif;
+  padding-left: 10%;
+  line-height: 150%;
+}
+
+.pop {
+  color:rgb(44,154,183);
+  padding-left: 10%;
+  font-family: Arial,serif;
+  font-weight: bold;
+  line-height: 150%;
+
+}
+
+.subbanner {
+  height: 4rem;
+  background-color: Gainsboro;
+  font-family:Arial,serif;
+  padding-left: 10%;
+  padding-top: 1rem;
+  //need a gap here//
 }
 
 .subtitle {
   font-size: 90%;
   color: white;
   font-style: italic;
-  font-family:Arial,serif
+  font-family:Arial,serif;
+  font-weight: normal;
 }
 
 .standard {
   font-family:Arial,serif
 }
+
+.quote {
+  font-family: Arial, serif;
+  color:rgb(44,154,183);
+  padding-left: 10%;
+}
+
+.relative {
+ position: relative;
+ right: 40px;
+ }
