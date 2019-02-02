@@ -1,3 +1,19 @@
+a:link {
+ text-decoration: none;
+
+}
+
+a:visited {
+ text-decoration: none;
+}
+
+a:hover {
+ text-decoration: underline;
+}
+
+.grey {
+  color:rgb(56,56,56);
+}
 
 
 .right {
@@ -51,7 +67,8 @@ div {
   font-family:Arial,serif;
   padding-left: 175px;
   padding-top: 1rem;
-  //need a gap here//
+  color: rgb(56,56,56);
+
 }
 
 .subtitle {
@@ -79,12 +96,27 @@ div {
  }
 
  footer {
-   height: 14rem;
+   height: 20rem;
    color: white;
    background-color:rgb(56,56,56);
    font-family:Arial,serif;
    padding-left: 300px;
-   padding-top: 1rem;
-   font-size: ;
+   padding-top: 5rem;
+
    text-align: center;
  }
+
+
+
+ .profile {
+
+  padding: 25px 0px 50px 175px;
+}
+
+.img1 {
+  float: right;
+}
+
+.clearfix {
+  overflow: auto;
+}
