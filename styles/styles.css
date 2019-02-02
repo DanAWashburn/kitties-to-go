@@ -6,7 +6,7 @@
 
 .upper {
   position: relative;
-          bottom: 450px;
+          bottom: 675px;
 }
 
 .emphasis {
@@ -15,8 +15,8 @@
 
 div {
 
-  width: 450px;
-  padding: 50px 10px 10px 175px;
+  width: 575px;
+  padding: 25px 0px 0px 175px;
 }
 
 .banner {
@@ -32,6 +32,8 @@ div {
 .standard {
   font-family:Arial,serif;
   line-height: 150%;
+  color: rgb(56,56,56);
+  font-size: 90%;
 }
 
 .pop {
@@ -67,10 +69,22 @@ div {
 .quote {
   font-family: Arial, serif;
   color:rgb(44,154,183);
+  font-size: 125%;
 
 }
 
 .relative {
  position: relative;
  right: 40px;
+ }
+
+ footer {
+   height: 14rem;
+   color: white;
+   background-color:rgb(56,56,56);
+   font-family:Arial,serif;
+   padding-left: 300px;
+   padding-top: 1rem;
+   font-size: ;
+   text-align: center;
  }
