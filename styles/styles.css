@@ -1,6 +1,5 @@
 a:link {
  text-decoration: none;
-
 }
 
 a:visited {
@@ -28,12 +27,22 @@ a:hover {
 .emphasis {
   color:rgb(44,154,183);
 }
-
 div {
-
+  position: relative;
+  top: 10px;
   width: 575px;
   padding: 25px 0px 0px 175px;
 }
+
+aside {
+  position: absolute;
+  top: 350px;
+  left: 900px;
+  width: 300px;
+
+
+}
+
 
 .banner {
   height: 14rem;
